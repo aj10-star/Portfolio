@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+overflow-x: hidden; 
 }
 
 html{
@@ -153,6 +154,7 @@ padding:20px;
 footer{
   display:flex;
   background-color:#000080;
+  align-items:center;
   width:100%;
   padding:20px;
   border-top:10px solid yellow;
@@ -160,7 +162,10 @@ footer{
 }
 
 #copyright-logo{
-  padding:20px;
+  padding:auto;
+  font-size:20px;
+  margin-right:10px;
+  
 }
 
 @media (max-width: 1024px) {
@@ -198,6 +203,7 @@ footer{
   #contacts {
     height: auto;
     padding: 1rem;
+
   }
 
   .project-box {
@@ -212,4 +218,8 @@ footer{
     padding: 10px 20px;
     font-size: 14px;
   }
+
+
+
+
 }
